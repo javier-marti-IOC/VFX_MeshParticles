@@ -224,7 +224,13 @@ VisualEffect:
     m_Uint:
       m_Array: []
     m_Int:
-      m_Array: []
+      m_Array:
+      - m_Value: 1000
+        m_Name: Rate Particles
+        m_Overridden: 1
+      - m_Value: 554
+        m_Name: Burst count
+        m_Overridden: 1
     m_Matrix4x4f:
       m_Array: []
     m_AnimationCurve:
@@ -272,7 +278,19 @@ VisualEffect:
         m_Name: Skinned Mesh Renderer
         m_Overridden: 1
     m_Bool:
-      m_Array: []
+      m_Array:
+      - m_Value: 1
+        m_Name: Bool
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: Turbulence
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Single Burst
+        m_Overridden: 0
+      - m_Value: 1
+        m_Name: Constant Rate
+        m_Overridden: 1
 --- !u!4 &233461278
 Transform:
   m_ObjectHideFlags: 0
